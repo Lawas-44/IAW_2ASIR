@@ -41,7 +41,7 @@ UD4/UD4.2_Alpha-Beta/
 
 > 📸 Pendiente: el hilo con la respuesta de Alpha y el estado "Resuelto" (o el historial de comentarios resueltos).
 
-**Deducción.** La @mención convierte un comentario en una tarea con destinatario: nadie tiene que buscar qué cambió. Al resolverlo, el hilo se archiva pero se conserva en el historial, de modo que hay constancia de qué se pidió y qué se hizo.
+**Deducción.** Beta señaló que el requisito 4 (aviso a cocina en tiempo real) es el que más pesa en su estimación (56 h, 24,5 % del coste) y que nuestra propia tabla lo marcaba como prioridad Media. Respondimos confirmando que en la primera versión basta un correo al restaurante y que la pantalla en vivo pasa a una segunda fase; corregimos el requisito 4 y su justificación en `archivos/Requisitos.docx` y marcamos el comentario como resuelto. De ahí deducimos que el comentario con @mención no solo avisa: obliga a decidir y deja constancia, y la tabla de prioridades sirve de verdad para recortar alcance. Al resolverlo, el hilo se archiva pero se conserva en el historial.
 
 ---
 
@@ -71,13 +71,17 @@ UD4/UD4.2_Alpha-Beta/
 
 > 📸 Pendiente: el acta con la sugerencia de Beta visible (texto tachado/nuevo en color) antes de decidir.
 
-**Deducción.** [Se completa en la ronda 2 con la sugerencia real de Beta.] Con el modo sugerencia el texto original no se pierde: Beta propone y nosotros decidimos.
+**Contexto (qué propuso Beta).** En el acuerdo 1, Beta cambió "30 días naturales" por "45 días naturales" y justificó el cambio con un comentario: el prototipo exige entrevistas (1 semana), prototipo de pantallas (1), modelo de datos (1) y API de pedidos (3), unas 6 semanas ≈ 42 días; en 30 días solo cabría sin la API.
+
+**Deducción.** Con el modo sugerencia el texto original no se pierde: se ve a la vez el "30" tachado y el "45" propuesto, quién lo propone y por qué. Además la sugerencia estaba respaldada por datos de la hoja de costes de Beta (11 semanas en total), no por una impresión. Beta propone y Alpha decide.
 
 ![Decisión de Alpha sobre la sugerencia](img/a3_decision.png)
 
 > 📸 Pendiente: la sugerencia aceptada o rechazada, con el comentario de Alpha que explica el motivo.
 
-**Deducción.** [Se completa en la ronda 2.]
+**Contexto (decisión).** Aceptamos la sugerencia y lo explicamos en un comentario: el cálculo de 6 semanas es razonable y, a cambio, la primera versión avisa a cocina por correo y la pantalla en vivo queda para la fase 2. En `archivos/Acuerdo.docx` el acuerdo 1 ya dice 45 días y se añadió un "Registro de cambios".
+
+**Deducción.** Aceptar con comentario deja la razón escrita junto al cambio, de modo que ni Alpha ni Beta tendrán dudas dentro de un mes. La decisión es coherente con A1: al quitar el tiempo real recortamos alcance y a cambio concedemos plazo, que es una negociación equilibrada. Además el formulario de A5 confirma que Beta no veía realistas los 30 días.
 
 ---
 
@@ -111,7 +115,9 @@ UD4/UD4.2_Alpha-Beta/
 
 > 📸 Pendiente: el gráfico de la pregunta de opción múltiple.
 
-**Deducción.** [Se completa en la ronda 2 con los datos reales: qué opción domina y qué conclusión sacamos para el proyecto.]
+**Contexto.** Respondieron las dos personas de Beta (2 respuestas, sin inventar más). Pasamos las respuestas a una hoja (`archivos/Respuestas_formulario.xlsx`), aplicamos un autofiltro y filtramos la pregunta 3 por "No" para ver quién considera irreal el plazo y qué propone. En la hoja Resumen contamos las opciones con `CONTAR.SI` y las graficamos.
+
+**Deducción.** La claridad de los requisitos sale bien (media 4,5 sobre 5). En la P2 no hay consenso: Beta 1 señala "Confirmación y aviso a cocina" y Beta 2 "Panel de gestión", cada una con una opción, así que con tan pocas respuestas no hay una opción dominante, pero ambas confirman que la parte de cocina y gestión es la más costosa. En la P3, ninguna respondió "Sí": una dijo "Con ajustes" y otra "No". Con solo dos respuestas no podemos generalizar, pero el dato apoya la decisión de A3 (ampliar a 45 días). Los comentarios abiertos piden definir qué significa cada prioridad y fijar un día de revisión de comentarios, acciones que adoptaremos.
 
 ---
 

@@ -39,7 +39,13 @@ Documento del grupo: [`archivos/Comparativa_Grupo5.docx`](archivos/Comparativa_G
 
 ![Historial de versiones del documento del grupo](img/historial_versiones.png)
 
-_Pendiente: añadir la captura del historial de versiones y su explicación (quién editó y entre qué horas)._
+**Explicación:** la captura es el historial de versiones del documento del grupo en **Word web (Microsoft 365)**, con la opción *Mostrar ediciones* activada, que subraya en color los cambios.
+
+- **Hace 7 minutos:** Tensae Chumillas López hace la primera edición.
+- **Hace 3 minutos:** Tensae vuelve a modificarlo y le pone el nombre definitivo, *Comparativa de suites ofimáticas · Grupo 5*.
+- **Ahora mismo:** en la misma versión aparecen cambios de **Luis Cornejo Cobos** (azul) y de **Tensae Chumillas López** (rosa).
+
+Cada autor tiene su color y Word junta sus cambios en una misma versión. Eso demuestra que **trabajamos a la vez sobre un único documento en la nube**, sin enviarnos copias por correo. Además, el historial permite volver a cualquier versión anterior (*Guardar una copia*).
 
 ---
 

@@ -39,13 +39,13 @@ Documento del grupo: [`archivos/Comparativa_Grupo5.docx`](archivos/Comparativa_G
 
 ![Historial de versiones del documento del grupo](img/historial_versiones.png)
 
-**Explicación:** la captura es el historial de versiones del documento del grupo en **Word web (Microsoft 365)**, con la opción *Mostrar ediciones* activada, que subraya en color los cambios.
+**Explicación:** la captura es el historial de versiones del documento del grupo en **Word web (Microsoft 365)**, con la opción *Mostrar ediciones* activada: lo que se añade sale **subrayado** y lo que se borra sale **tachado**.
 
-- **Hace 7 minutos:** Tensae Chumillas López hace la primera edición.
-- **Hace 3 minutos:** Tensae vuelve a modificarlo y le pone el nombre definitivo, *Comparativa de suites ofimáticas · Grupo 5*.
-- **Ahora mismo:** en la misma versión aparecen cambios de **Luis Cornejo Cobos** (azul) y de **Tensae Chumillas López** (rosa).
+- **Hace 11 minutos:** Tensae Chumillas López crea la primera versión del documento.
+- **Hace 7 minutos:** Tensae lo modifica y le pone el nombre definitivo, *Comparativa de suites ofimáticas · Grupo 5*.
+- **Hace 2 minutos y ahora mismo:** en las dos versiones aparecen cambios de **Luis Cornejo Cobos** (azul) y de **Tensae Chumillas López** (rosa). En la tabla se ve cómo reescribimos y corregimos las celdas de *Herramientas*: textos tachados sustituidos por otros subrayados.
 
-Cada autor tiene su color y Word junta sus cambios en una misma versión. Eso demuestra que **trabajamos a la vez sobre un único documento en la nube**, sin enviarnos copias por correo. Además, el historial permite volver a cualquier versión anterior (*Guardar una copia*).
+Cada autor tiene su color y Word junta los cambios de los dos en las mismas versiones. Eso demuestra que **trabajamos a la vez sobre un único documento en la nube**, sin enviarnos copias por correo. Además, el historial permite volver a cualquier versión anterior (*Guardar una copia*).
 
 ---
 

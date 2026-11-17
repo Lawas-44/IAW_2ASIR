@@ -102,19 +102,53 @@ Vista previa (generada fuera de Excel, solo orientativa; las evidencias son las 
 
 ## B5 · Comentario con mención y sugerencia en el acta (1,5 pt)
 
-*(Parte de la ronda 2: se redactará al conocer `Requisitos.docx` y `Acuerdo.docx` de Alpha.)*
+**Contexto (comentario).** Alpha, como cliente del restaurante "El Rincón", nos comparte `Requisitos.docx` en Google Docs. Hacemos de consultores: leemos los 5 requisitos junto a nuestra hoja de costes y comprobamos que el **R4 (confirmación y aviso a cocina, "mostrar el pedido al instante en la pantalla de cocina")** coincide con nuestra tarea más cara: la API de pedidos y comandas (56 h, 2.128 €, 24,5 %, 3 semanas, aviso "Revisar"). Seleccionamos esa frase y dejamos un comentario con **@mención** al miembro de Alpha para que le llegue el aviso:
 
-**Contexto.** (pendiente) Alpha nos comparte los requisitos del software; hacemos de consultores y dejamos un comentario con **@mención** para que le llegue el aviso.
+> @[Nombre Alpha 1] Este requisito es el que más pesa en nuestra estimación: la API de pedidos con aviso en tiempo real a cocina son 56 h (2.128 €, 24,5 % del total, 3 semanas) y en la hoja "Costes y plazos" aparece en "Revisar". En la tabla de prioridades lo marcáis como Media y dice que se puede empezar con un correo. ¿Confirmáis que en la primera versión basta un correo al restaurante y la pantalla en vivo queda para una segunda fase? Así se ahorrarían unas 20 h aprox. y podemos cumplir el plazo. Necesitamos vuestra respuesta antes de la reunión del viernes 20/11.
 
-![Comentario con mención](img/b5_comentario.png)
+![Comentario con @mención en los requisitos](img/b5_comentario.png)
 
-> 📸 Pendiente: comentario con @mención en el documento de Alpha (Word/Docs según la suite desde la que se abra), con la respuesta o resolución de Alpha.
+> 📸 Pendiente: el comentario sobre la frase del R4 con la @mención resaltada, y la respuesta de Alpha con el hilo **resuelto**.
 
-![Sugerencia en el acta](img/b5_sugerencia.png)
+**Deducción (comentario).** La mención convierte un comentario en una tarea con destinatario: Alpha recibe un correo y no depende de abrir el documento. El comentario es útil porque une el requisito con datos de nuestra hoja (horas, coste, plazo) y plantea una decisión concreta (correo ahora, pantalla en vivo después), coherente con la prioridad Media que Alpha ya puso en su tabla. Así el requisito se discute sobre cifras, no sobre opiniones, y queda constancia del historial.
 
-> 📸 Pendiente: cambio hecho en **modo sugerencia** sobre uno de los 3 acuerdos del acta, y la decisión de Alpha (aceptar/rechazar con comentario).
+**Contexto (sugerencia en el acta).** En `Acuerdo.docx` el acuerdo 1 dice que Beta entregará el prototipo funcional (carta, carrito y confirmación) en **30 días naturales**. Con la hoja en la mano, el prototipo exige entrevistas (1 sem), prototipo de pantallas (1), modelo de datos (1) y la API de pedidos (3): 6 semanas ≈ 42 días. Cambiamos en **modo Sugerencias** "30" por **"45"** y dejamos un comentario de justificación:
 
-**Deducción.** (pendiente de ronda 2)
+- Original: "...en un plazo de ~~30~~ días naturales..."
+- Propuesto: "...en un plazo de **45** días naturales..."
+
+> Proponemos 45 días. El prototipo (carta, carrito y confirmación) exige entrevistas (1 sem), prototipo de pantallas (1), modelo de datos (1) y la API de pedidos (3 sem, la tarea en "Revisar"): 6 semanas de trabajo ≈ 42 días, con margen = 45. En 30 días (≈4,3 semanas) solo cabría sin la API. El proyecto completo son 11 semanas / 224 h / 8.684 €, según Costes_y_plazos.xlsx.
+
+![Sugerencia en modo Sugerencias](img/b5_sugerencia.png)
+
+> 📸 Pendiente: acuerdo 1 con "30" tachado y "45" propuesto (con el color/autor de la sugerencia) y el comentario de justificación al margen. Antes de hacerlo, comprobar que el desplegable de modo muestra **Sugerencias**.
+
+![Decisión de Alpha](img/b5_decision_alpha.png)
+
+> 📸 Pendiente: la decisión de Alpha sobre la sugerencia (aceptada o rechazada con su comentario). Si Alpha no responde, captura del mensaje o aviso enviado pidiéndolo.
+
+**Deducción (sugerencia).** El modo sugerencia no cambia el acta: el texto original sigue ahí hasta que Alpha decide, y queda registrado quién propuso qué. Como Beta tiene permiso de edición, la herramienta nos obliga a proponer en vez de imponer; es la diferencia con el rol comentarista (que ni siquiera podría proponer el cambio en el texto). La cifra de 45 días no es arbitraria: sale de las tareas y semanas de nuestra hoja, de modo que la justificación es comprobable.
+
+### Colaboración: formulario de Alpha respondido
+
+**Contexto.** Tras la reunión, Alpha nos envía un Google Forms "Valoración de la colaboración Alpha–Beta" (4 preguntas: claridad de requisitos, requisito más complicado, plazos de 30 días, qué mejorar). Cada miembro de Beta lo responde desde su cuenta.
+
+| Pregunta | Beta 1 | Beta 2 |
+|---|---|---|
+| 1. Claridad de los requisitos (1–5) | 4 | 5 |
+| 2. Requisito más complicado | Confirmación y aviso a cocina | Panel de gestión |
+| 3. ¿Plazos de 30 días realistas? | Con ajustes | No |
+| 4. Qué mejoraríais | Los requisitos son claros, pero falta decir qué incluye cada "Alta/Media/Baja" en horas o alcance; propondríamos una plantilla común de comentarios para no duplicar avisos. | Fijar un día de revisión de comentarios (p. ej. antes de la reunión semanal) y que los cambios de plazo se debatan en el acta, no solo por mensajes sueltos. Vendría bien indicar un responsable por cada tarea del acta. |
+
+![Formulario respondido por Beta 1](img/b5_forms_beta1.png)
+
+> 📸 Pendiente: pantalla de confirmación de envío (o el formulario ya rellenado) de **Beta 1**.
+
+![Formulario respondido por Beta 2](img/b5_forms_beta2.png)
+
+> 📸 Pendiente: pantalla de confirmación de envío (o el formulario ya rellenado) de **Beta 2**.
+
+**Deducción.** Las respuestas son coherentes con lo trabajado: Beta 1 señala el aviso a cocina (la API en tiempo real, 56 h) como lo más difícil y Beta 2 el panel de gestión (mucha interfaz); ambas ven el plazo de 30 días ajustado, que es justo lo que defendemos con la sugerencia de 45. Que no coincidan en todo es normal: un formulario recoge la opinión individual, y las preguntas de opción múltiple permiten a Alpha filtrarlas y graficarlas, mientras que la de párrafo da el matiz.
 
 ---
 
@@ -165,8 +199,9 @@ Una alternativa propia o de código abierto autoalojada (Nextcloud + OnlyOffice/
 - [ ] Capturas B3: desbloqueo, intento en celda bloqueada, cambio de horas con recálculo (contraseña de protección: `asir`; para el cuadro de desprotección: Revisar → Desproteger hoja).
 - [ ] Captura B4: gráfico circular visible junto a la tabla.
 - [ ] Compartir el xlsx con Alpha como **editor** (solo con su cuenta/correo) y capturar la invitación. Si Alpha no comparte lo suyo, documentar el intento con una captura.
-- [ ] Ronda 2: comentario con @mención en los requisitos de Alpha y sugerencia en el acta (B5); capturas.
-- [ ] Responder al formulario de Alpha (cada miembro) y capturar la confirmación.
+- [ ] **Comentario con @mención (B5):** abre `Requisitos.docx` en Google Docs con tu cuenta (te lo comparte Alpha como editor/comentarista) → selecciona la frase "mostrar el pedido al instante en la pantalla de cocina" del requisito 4 → icono **Añadir comentario** (o Ctrl+Alt+M) → escribe `@` y elige a la persona de Alpha (el correo se autocompleta; si Docs pregunta, dale permiso de comentar) → pega el texto del comentario → **Comentar**. Captura el comentario con la mención y, cuando Alpha responda, el hilo resuelto.
+- [ ] **Sugerencia en el acta (B5):** abre `Acuerdo.docx` → arriba a la derecha cambia de **Edición** a **Sugerencias** → en el acuerdo 1 borra "30" y escribe "45" → selecciona el cambio y añade un comentario con la justificación → captura (el "30" tachado y el "45" de otro color). Cuando Alpha acepte o rechace, captura su decisión y su comentario.
+- [ ] **Formulario (B5):** abre el enlace del Forms de Alpha con tu cuenta, responde las 4 preguntas (cada miembro de Beta con sus propias respuestas, ver tabla) → **Enviar** → captura la confirmación. Si el formulario no llega, captura el mensaje pidiéndolo a Alpha.
 - [ ] B6: incógnito restringido, "cualquiera con el enlace", incógnito de nuevo, volver a restringir; capturas.
 - [ ] Sustituir cada `📸 Pendiente` por la captura real y completar contexto y deducción con lo que se ve de verdad (nombres, fechas, mensajes de Excel).
 - [ ] `git add UD4/UD4.2_Alpha-Beta` · `git commit -m "UD4.2: evidencias Beta"` · `git push`.

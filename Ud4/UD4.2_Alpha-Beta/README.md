@@ -1,8 +1,8 @@
 # UD4.2 · Trabajo cooperativo con suites SaaS · Pareja BETA (Microsoft 365)
 
-**Cliente:** pareja Alpha (Google Workspace) · **Encargo:** aplicación de pedidos para un restaurante · **Suite de Beta:** Microsoft 365 (Excel Online / Excel de escritorio)
+**Equipo:** Beta = Luis (Microsoft 365) · Alpha = Tensae (Google Workspace), que hace de cliente · **Encargo:** aplicación de pedidos para un restaurante · **Suite de Beta:** Microsoft 365 (Excel Online / Excel de escritorio)
 
-> Estado: BORRADOR (ronda 1). Los apartados con `📸 Pendiente` se completan con las capturas reales del alumno.
+> Estado: BORRADOR. Los apartados con `📸 Pendiente` se completan con las capturas reales del alumno.
 
 ## Estructura de la entrega
 
@@ -103,9 +103,9 @@ Vista previa (generada fuera de Excel, solo orientativa; las evidencias son las 
 
 ## B5 · Comentario con mención y sugerencia en el acta (1,5 pt)
 
-**Contexto (comentario).** Alpha, como cliente del restaurante "El Rincón", nos comparte `Requisitos.docx` en Google Docs. Hacemos de consultores: leemos los 5 requisitos junto a nuestra hoja de costes y comprobamos que el **R4 (confirmación y aviso a cocina, "mostrar el pedido al instante en la pantalla de cocina")** coincide con nuestra tarea más cara en ese momento (hoja v1): la API de pedidos y comandas (56 h, 2.128 €, 24,5 %, 3 semanas, aviso "Revisar"). Seleccionamos esa frase y dejamos un comentario con **@mención** al miembro de Alpha para que le llegue el aviso:
+**Contexto (comentario).** Alpha, como cliente del restaurante "El Rincón", nos comparte `Requisitos.docx` en Google Docs. Hacemos de consultores: leemos los 5 requisitos junto a nuestra hoja de costes y comprobamos que el **R4 (confirmación y aviso a cocina, "mostrar el pedido al instante en la pantalla de cocina")** coincide con nuestra tarea más cara en ese momento (hoja v1): la API de pedidos y comandas (56 h, 2.128 €, 24,5 %, 3 semanas, aviso "Revisar"). Seleccionamos esa frase y dejamos un comentario con **@mención** a Tensae (Alpha) para que le llegue el aviso:
 
-> @[Nombre Alpha 1] Este requisito es el que más pesa en nuestra estimación: la API de pedidos con aviso en tiempo real a cocina son 56 h (2.128 €, 24,5 % del total, 3 semanas) y en la hoja "Costes y plazos" aparece en "Revisar". En la tabla de prioridades lo marcáis como Media y dice que se puede empezar con un correo. ¿Confirmáis que en la primera versión basta un correo al restaurante y la pantalla en vivo queda para una segunda fase? Así se ahorrarían unas 20 h aprox. y podemos cumplir el plazo. Necesitamos vuestra respuesta antes de la reunión del viernes 20/11.
+> @Tensae Este requisito es el que más pesa en nuestra estimación: la API de pedidos con aviso en tiempo real a cocina son 56 h (2.128 €, 24,5 % del total, 3 semanas) y en la hoja "Costes y plazos" aparece en "Revisar". En la tabla de prioridades lo marcas como Media y dice que se puede empezar con un correo. ¿Confirmas que en la primera versión basta un correo al restaurante y la pantalla en vivo queda para una segunda fase? Así se ahorrarían unas 20 h aprox. y podemos cumplir el plazo. Necesito tu respuesta antes de la reunión del viernes 20/11.
 
 ![Comentario con @mención en los requisitos](img/b5_comentario.png)
 
@@ -146,24 +146,20 @@ Vista previa (generada fuera de Excel, solo orientativa; las evidencias son las 
 
 ### Colaboración: formulario de Alpha respondido
 
-**Contexto.** Tras la reunión, Alpha nos envía un Google Forms "Valoración de la colaboración Alpha–Beta" (4 preguntas: claridad de requisitos, requisito más complicado, plazos de 30 días, qué mejorar). Cada miembro de Beta lo responde desde su cuenta.
+**Contexto.** Tras la reunión, Alpha nos envía un Google Forms "Valoración de la colaboración Alpha–Beta" (4 preguntas: claridad de requisitos, requisito más complicado, plazos de 30 días, qué mejorar). Luis (Beta) lo responde desde su cuenta.
 
-| Pregunta | Beta 1 | Beta 2 |
-|---|---|---|
-| 1. Claridad de los requisitos (1–5) | 4 | 5 |
-| 2. Requisito más complicado | Confirmación y aviso a cocina | Panel de gestión |
-| 3. ¿Plazos de 30 días realistas? | Con ajustes | No |
-| 4. Qué mejoraríais | Los requisitos son claros, pero falta decir qué incluye cada "Alta/Media/Baja" en horas o alcance; propondríamos una plantilla común de comentarios para no duplicar avisos. | Fijar un día de revisión de comentarios (p. ej. antes de la reunión semanal) y que los cambios de plazo se debatan en el acta, no solo por mensajes sueltos. Vendría bien indicar un responsable por cada tarea del acta. |
+| Pregunta | Respuesta de Luis |
+|---|---|
+| 1. Claridad de los requisitos (1–5) | 4 |
+| 2. Requisito más complicado | Confirmación y aviso a cocina |
+| 3. ¿Plazos de 30 días realistas? | Con ajustes |
+| 4. Qué mejoraríais | Los requisitos son claros, pero falta decir qué incluye cada "Alta/Media/Baja" en horas o alcance; propondría una plantilla común de comentarios para no duplicar avisos. |
 
-![Formulario respondido por Beta 1](img/b5_forms_beta1.png)
+![Formulario respondido por Luis](img/b5_forms_beta.png)
 
-> 📸 Pendiente: pantalla de confirmación de envío (o el formulario ya rellenado) de **Beta 1**.
+> 📸 Pendiente: pantalla de confirmación de envío (o el formulario ya rellenado) de Luis.
 
-![Formulario respondido por Beta 2](img/b5_forms_beta2.png)
-
-> 📸 Pendiente: pantalla de confirmación de envío (o el formulario ya rellenado) de **Beta 2**.
-
-**Deducción.** Las respuestas son coherentes con lo trabajado: Beta 1 señala el aviso a cocina (la API en tiempo real) como lo más difícil y Beta 2 el panel de gestión (mucha interfaz); ambas ven el plazo de 30 días ajustado, que es justo lo que defendemos con la sugerencia de 45. Que no coincidan en todo es normal: un formulario recoge la opinión individual, y las preguntas de opción múltiple permiten a Alpha filtrarlas y graficarlas, mientras que la de párrafo da el matiz.
+**Deducción.** La respuesta es coherente con lo trabajado: señala el aviso a cocina (la API en tiempo real) como lo más difícil y ve el plazo de 30 días ajustado, que es justo lo que defendemos con la sugerencia de 45. El formulario recoge la opinión individual de forma estructurada: las preguntas de opción múltiple permiten a Alpha filtrarlas y hacer un gráfico, y la de párrafo da el matiz.
 
 ---
 
@@ -216,7 +212,7 @@ Una alternativa propia o de código abierto autoalojada (Nextcloud + OnlyOffice/
 - [ ] Compartir el xlsx con Alpha como **editor** (solo con su cuenta/correo) y capturar la invitación. Si Alpha no comparte lo suyo, documentar el intento con una captura.
 - [ ] **Comentario con @mención (B5):** abre `Requisitos.docx` en Google Docs con tu cuenta (te lo comparte Alpha como editor/comentarista) → selecciona la frase "mostrar el pedido al instante en la pantalla de cocina" del requisito 4 → icono **Añadir comentario** (o Ctrl+Alt+M) → escribe `@` y elige a la persona de Alpha (el correo se autocompleta; si Docs pregunta, dale permiso de comentar) → pega el texto del comentario → **Comentar**. Captura el comentario con la mención y, cuando Alpha responda, el hilo resuelto.
 - [ ] **Sugerencia en el acta (B5):** abre `Acuerdo.docx` → arriba a la derecha cambia de **Edición** a **Sugerencias** → en el acuerdo 1 borra "30" y escribe "45" → selecciona el cambio y añade un comentario con la justificación → captura (el "30" tachado y el "45" de otro color). Cuando Alpha acepte o rechace, captura su decisión y su comentario.
-- [ ] **Formulario (B5):** abre el enlace del Forms de Alpha con tu cuenta, responde las 4 preguntas (cada miembro de Beta con sus propias respuestas, ver tabla) → **Enviar** → captura la confirmación. Si el formulario no llega, captura el mensaje pidiéndolo a Alpha.
+- [ ] **Formulario (B5):** abre el enlace del Forms de Alpha con tu cuenta, responde las 4 preguntas (ver tabla) → **Enviar** → captura la confirmación. Si el formulario no llega, captura el mensaje pidiéndolo a Alpha.
 - [ ] B6: incógnito restringido, "cualquiera con el enlace", incógnito de nuevo, volver a restringir; capturas.
 - [ ] Sustituir cada `📸 Pendiente` por la captura real y completar contexto y deducción con lo que se ve de verdad (nombres, fechas, mensajes de Excel).
 - [ ] `git add UD4/UD4.2_Alpha-Beta` · `git commit -m "UD4.2: evidencias Beta"` · `git push`.
